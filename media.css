@@ -1,0 +1,131 @@
+@media only screen and (max-width: 768px){
+    .navlogo{
+        height: 40px;
+        width: 80px;
+    }
+    
+    .logo{
+        background-image: url(Assets/amazon_logo.png);
+        background-size: cover;
+        height: 50px;
+        width: 80px;
+    }
+    .navsearch{
+        height: 50%;
+        width: 40%;
+
+    }
+    .navCart{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+
+
+    .heroSection{
+        background-image: url(Assets/hero_image.jpg);
+        background: linear-gradient(to bottom, rgba(url('Assets/hero_image.jpg'), 0.0), rgba(url('Assets/hero_image.jpg'), 1.0));
+        height: 200px;
+        background-size: cover;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .box{
+        height: 300px;
+        width: 33%;
+        background-color: white;
+        padding: 20px 0 15px;
+        margin-top: 15px;
+        border-radius: 10px;
+
+        .box-content{
+            h2{
+                font-size: 1rem;
+            }
+            div{
+                height: 200px;
+            }
+        }
+            
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+    .navlogo{
+        height: 10px;
+        width: 40px;
+    }
+    
+    .logo{
+        background-image: url(Assets/amazon_logo.png);
+        background-size: cover;
+        height: 30px;
+        width: 60px;
+    }
+    .navsearch{
+        height: 50%;
+        width: 30%;
+
+    }
+    .navCart{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+
+
+    .heroSection{
+        background-image: url(Assets/hero_image.jpg);
+        background: linear-gradient(to bottom, rgba(url('Assets/hero_image.jpg'), 0.0), rgba(url('Assets/hero_image.jpg'), 1.0));
+        height: 200px;
+        background-size: cover;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .box{
+        height: 200px;
+        width: 33%;
+        background-color: white;
+        padding: 20px 0 15px;
+        margin-top: 15px;
+        border-radius: 10px;
+
+        .box-content{
+            h2{
+                font-size: 1rem;
+            }
+            div{
+                height: 100px;
+            }
+        }
+            
+    }
+    .foot-panel2{
+        ul{
+            a{
+                display: block;
+                font-size: 0.65rem;
+                margin-top: 10px;
+                color: #dddddd;
+                border: none;   
+            }
+        }
+    }
+
+}
+@media only screen and (max-width: 438px){
+    .foot-panel2{
+        ul{
+            a{
+                display: block;
+                font-size: 0.45rem;
+                margin-top: 10px;
+                color: #dddddd;
+                border: none;   
+            }
+        }
+    }
+}
